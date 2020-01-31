@@ -1,0 +1,45 @@
+
+    #container {
+    margin: auto;
+    padding: 20px;
+    }
+    
+    h1{
+    font-family: 'Sacramento', cursive;
+    font-weight: 400;
+    font-size: 3em;
+    }
+    h2{
+    font-weight: 400;
+    }
+    header{
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 400;
+    }
+
+    p {
+    font-family: 'Josefin Sans', sans-serif;
+    }
+    
+    main{
+    font-family: 'Josefin Sans', sans-serif;
+  
+    }
+   
+    
+    footer{
+    font-weight: 400;
+    font-family: 'Josefin Sans', sans-serif;
+   
+    text-align: center;
+    }
+    
+    #link_1{
+    text-decoration: none;
+    }
+    #link_2{
+    text-decoration: none;
+    }
+    #link_3{
+    text-decoration: none;
+    }
