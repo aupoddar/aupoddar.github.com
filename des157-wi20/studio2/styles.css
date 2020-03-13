@@ -14,7 +14,7 @@
 }
 .text{
     padding: 20px;
-    padding-left: 50px;
+    padding-left: 30px;
     color: white;
     font-family: 'Sen', sans-serif;
     background-color:#D0C1BC;
@@ -38,6 +38,7 @@
 h2{
     font-family: 'Sen', sans-serif;
     padding-left: 30px;
+    font-size: 1em;
 }
   h1{
   
@@ -65,3 +66,10 @@ body{
     grid-column:3/3;
     grid-row:1/1;
 }
+footer{
+    font-weight: 400;
+    font-family: 'Sen', sans-serif;
+    grid-column: 1/4;
+    grid-row: 4/4; 
+    text-align: center;
+    }
