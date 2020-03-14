@@ -1,0 +1,50 @@
+body {
+    margin: 0;
+    padding: 0;
+   
+  }
+  
+#intro{
+    width: 100%;
+    background-image:linear-gradient(180deg,  #a6c1ee  0%, #fbc2eb 100%);
+    height: 100vh;
+    padding-top: 0;
+    
+}
+#about{
+    background-color:#fbc2eb;
+}
+img{
+    margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+h1{
+    padding-top:60px;
+    padding-left:30px;
+    margin:0;
+    font-family: 'Ramabhadra', sans-serif;
+    color: white;
+    font-size: 2.3em;
+}
+#title{
+    margin:0;
+    font-family: 'Ramabhadra', sans-serif;
+    color: white;
+    text-align: center;
+    padding-top:250px;
+    font-size: 2.3em;
+}
+
+#subtitle{
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    color: white;
+    font-size: .8em;
+}
+footer{
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+   color: white;
+    text-align: center;
+    }
