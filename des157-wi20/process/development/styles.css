@@ -33,7 +33,9 @@
    
     text-align: center;
     }
-    
+    img{
+        padding-left: 250px;
+    }
     #link_1{
     text-decoration: none;
     }
