@@ -74,7 +74,7 @@ body {
     transition: .4s ease-in-out;
 }
 #about{
-    padding-top:50px;
+    
     text-align: center;
     color: cornflowerblue;
     
@@ -119,13 +119,7 @@ h1{
     text-align: center;
     font-size: 3em;
 }
-#end{
-    padding-top: 170px;
-    font-family: 'Roboto', sans-serif;
-    text-align: center;
-    color: white;
-    font-size: .8em;
-}
+
 #subtitle{
     font-family: 'Roboto', sans-serif;
     text-align: center;
@@ -216,7 +210,7 @@ footer{
       }
       
       nav ul li:active {
-        font-family: 'Montserrat', sans-serif;
+        font-family: 'Roboto', sans-serif;
         background:  #fbc2eb;
       }
       nav ul li a {
@@ -224,3 +218,9 @@ footer{
         text-decoration: none;
         color: white;
       }
+      footer{
+       
+        font-family: 'Roboto', sans-serif;
+        color:white; 
+        text-align: center;
+        }
