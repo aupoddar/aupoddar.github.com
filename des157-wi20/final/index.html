@@ -10,27 +10,88 @@
     <title>Document</title>
 </head>
 <body>
-  
+
+  <!--header-->
   <div id="intro">
+        <img id="coverimg" src="cover.png" width=500 alt="earthlogo">
         <h1 id="title">solving food waste & insecurity: tech apps</h1>
         <h2 id="subtitle"> Learn about the potential of using food apps to utilize unused food as a means of reducing food insecurity.</h2>
   </div>
 
+     <!--intro-->
     <div id = "about">
-        <h1>the situation:</h1>
-        <img id="one" src="globe.png" width=30% alt="earthlogo">
-    </div>
-    <div class = "research">
+        <h1>click on globe</h1>
+        <img id="globe" src="globe.png" width=500 alt="earthlogo">
+        <section id="globeoverlay">
+            <div id="globeclose">&otimes;</div>
+                <p id="info1" align="left"> One-third of the world’s food ends up in landfills, yet a billion people around the globe are hungry. 
+                </br></br>
+                    Food waste represents a drain in resources in almost all aspects and has continued to be a major issue in the world today. It is estimated that about 40% of American food is uneaten resulting in a loss of $218 billion annually and one quarter of total water used in agriculture is spent on wasted food. Additionally, food waste is a major contributor to deforestation and accounts for about 3% of total greenhouse gas emissions in the U.S (which is equivalent to 37.4 million passenger vehicles driven in a year). Food waste also is the largest contributor by volume to landfills. While this holds true, food insecurity is just as prevalent of an issue today. While efforts should be made to reduce food waste in the first place, addressing food insecurity by reducing food waste has become an effective method to help counter both issues.
+                </br></br></br>
+                    Scroll down and click on the icons to learn more about the current situation and the possibilities of utilizing apps to help with this issue.</p>
+        </section>
         
     </div>
-    <div class = "solution">
+    <!--causes/effects-->
+    <div id= "research">
         
+        <img id="spoon1" src="spoonunfill.png" width=500 alt="earthlogo">
+        <p id="onetext" class="hidden">33% of all food produced globally goes to waste.</p>
+        <img id="fork1" src="forkunfilled.png" width=500 alt="earthlogo">
+        <p id="twotext" class="hidden">25% of the worlds fresh water supply is used on food that goes to waste.</p>
+        <img id="spoon2" src="lastspoonun.png" width=500 alt="earthlogo">
+        <p id="threetext" class="hidden">26.4% of the world experiences is insecure of food.</p>
+        <div id="text"></div>
     </div>
-    <div class = "findings">
+    <!--app developments-->
+    <div class id = "solution">
+        <iframe height='200' src='https://www.theworldcounts.com/embed/challenges/107?background_color=none&color=cornflowerblue&font_family=%22Helvetica+Neue%22%2C+Arial%2C+sans-serif&font_size=140' style='border: none' width='900'></iframe>
+        <h1 class id ="stat">tons of food lost or wasted globally this year.</h1>
     </div>
-</div>
-</body>
-<footer>
+    <!--findings-->
+   
 
-</footer>
+    <div class id ="phone">     
+            <img id="iphone" src="phone.png" height=400 width=200 alt="earthlogo">  
+            <div id="itext"></div>
+            <section id="iphonetext" class="hide"> <p>Over the past few years there have been a number of food apps that aim to sell food that would have otherwise been wasted. Particularly, there are apps that take foods that are nearing their expiration date from markets or restaurants and resell them at a discounted price.
+            </br></br>
+             Flashfood is an app that partners with grocery stores to sell surplus food at a discounted price of at least 50% off or more .Through this app, stores post daily offerings on foods that are approaching their best-before dates and users have the opportunity to purchase these from their grocery store. Food for All is another app that aims to reduce wasted restaurant food in Boston and New York City. This app allows users to purchase meals one hour before a restaurant closes at a highly discounted price (as high at 80%).</br></br>
+            By creating a platform to connect parties with excess food and individuals who are in need of food (in these cases restaurants and grocery stores with customers), food that would otherwise be wasted is transferred to those who need them. This idea has been implemented through various kinds of apps, even including student built apps to transfer extra meal plans to college students in need of a meal. <br><br>
+            In this situation, apps can be used as a tool to minimize small accounts of food waste in communities and the potential of its implementation in colleges, restaurants, and events has just begun!
+            
+            </br></p>
+            <nav>
+                
+                <ul>
+                         <li><a href="https://www.flashfood.com/">FlashFood</a></li>
+                         <li><a href="https://foodforall.com/">Food For All</a></li>
+          
+          
+                </ul>
+                 
+              </nav>
+            
+
+    </div>
+    <div class id ="findings">
+        
+        <img id="truck" src="truck.png" width=600 alt="earthlogo">   
+        <div id="truckt"></div>
+        <p id="trucktext" class="hides">Of course, food apps are not the solution to food waste and food insecurity. Regardless of its ability to cure these complex and deep issues, 
+            it sure has proven itself to be effective. For example, 
+            Copia an app that transfers food from events to soup kitchens 
+            and shelters has reported to have moved 1 million pounds of food
+             to people in need instead of ending up in a landfill. 412 Food 
+             Rescue has saved ore than 6 million pounds of food. Too Good To Go has 
+             stated that they’ve saved more than 45 million pounds of food as well. 
+        </br></br></br></br>
+        A small transfer of goods from a simple application connecting those with food and those without is a great start to reducing food waste and food insecurity at the same time.
+    </p>
+        
+    </div>
+    <footer>
+    </footer>
+    <script src="script.js"></script>
+</body>
 </html>

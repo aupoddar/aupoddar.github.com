@@ -19,7 +19,18 @@ h1{
 p{
     padding-left:150px;
 }
-
+.hidden{
+    display: none;
+}
+.text{
+    padding: 20px;
+    padding-left: 30px;
+    color: white;
+    font-family: 'Sen', sans-serif;
+    background-color:#D0C1BC;
+    border-radius: 25px;
+    
+}
 .container {
     color: #C7F1FE;
     margin: auto;

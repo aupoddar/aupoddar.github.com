@@ -1,26 +1,102 @@
 body {
     margin: 0;
     padding: 0;
-   
+    background-image:linear-gradient(180deg,  #a6c1ee  0%, #fbc2eb 100%);
   }
-  
+  .hidden{
+    display: none;
+}
+.hide{
+    display: none;
+}
+.hides{
+    display: none;
+}
+#info1{
+    font-size:1.2em;
+    padding:100px;
+    font-family: 'Sen', sans-serif;
+}
+
+ .text{
+    padding: 20px;
+    padding-left: 10px;
+    width: 300px;
+    color: white;
+    font-family: 'Sen', sans-serif;
+    background-color:#fbc2eb;
+    border-radius: 25px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+ }
+
+ .itext{
+    padding: 20px;
+    padding-left: 10px;
+    width: 600px;
+    color: white;
+    font-family: 'Sen', sans-serif;
+   
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+ }
+ .truckt{
+    padding: 20px;
+    padding-left: 10px;
+    width: 600px;
+    color: white;
+    font-family: 'Sen', sans-serif;
+   
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+ }
+
 #intro{
     width: 100%;
-    background-image:linear-gradient(180deg,  #a6c1ee  0%, #fbc2eb 100%);
+    
     height: 100vh;
     padding-top: 0;
+    padding-bottom:30px;
     
 }
-#one{
-    padding-top: 100px;
+#coverimg{
+    padding-top:250px;
 }
-#one:hover {
+#globe{
+    padding-top: 80px;
+}
+#globe:hover {
     
     transform: scale(1.3);
     transition: .4s ease-in-out;
 }
 #about{
-    background-color:#fbc2eb;
+    padding-top:50px;
+    text-align: center;
+    color: cornflowerblue;
+    
+}
+#research{
+    text-align: center;
+    
+    padding-top:100px;
+    color: cornflowerblue;
+}
+#solution{
+    padding-top:200px;
+    text-align: center;
+   
+    
+}
+#findings{
+    text-align: center;
+    
+    padding-top: 200px;
+    
+    padding-bottom: 100px;
 }
 img{
     margin-left: auto;
@@ -28,27 +104,37 @@ img{
   display: block;
 }
 h1{
-    
-    padding-left:30px;
+    padding-top: 40px;
+    color: cornflowerblue;
+    padding-right:10px;
     margin:0;
     font-family: 'Ramabhadra', sans-serif;
-    color: white;
-    font-size: 2.3em;
+ 
+    font-size: 1em;
 }
 #title{
     margin:0;
     font-family: 'Ramabhadra', sans-serif;
     color: white;
     text-align: center;
-    padding-top:250px;
-    font-size: 2.3em;
+    font-size: 3em;
 }
-
+#end{
+    padding-top: 170px;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    color: white;
+    font-size: .8em;
+}
 #subtitle{
     font-family: 'Roboto', sans-serif;
     text-align: center;
     color: white;
     font-size: .8em;
+    
+}
+#stat{
+    color:white;
 }
 footer{
     font-weight: 400;
@@ -56,3 +142,85 @@ footer{
    color: white;
     text-align: center;
     }
+    #globeoverlay {
+        background-color: rgba(251, 194, 235, 0.85);
+        width: 100%;
+        height: 100%;
+        position: fixed;
+        top: 0;
+        left: 0;
+        display: none;
+        justify-content: center;
+        align-items: center;
+    }
+#iphone{
+    padding-top: 200px;
+   
+    
+    
+    display: block;
+}
+
+
+#phonetext{
+    padding-top: 200px;
+    padding-left: 1000px;
+}
+#truck{
+    
+   
+    
+    display: block;
+}
+    #globeclose{
+        position: absolute;
+        font-size: 2em;
+    }
+    
+    #globeclose{
+        top: 2em;
+        right: 4em;
+    }
+   
+   
+      nav ul{
+        font-family: 'Roboto', sans-serif;
+        margin: 0;
+          padding: 0;
+          display: flex;
+          flex-wrap: wrap;
+          justify-content: center;
+          list-style-type: none;
+      
+      
+        /* flex-wrap: wrap; */
+      
+      
+      }
+      nav ul li {
+        
+        padding: 10px;
+        border-radius: 25px;
+        text-align: center;
+        display:flex;
+        flex-direction:row;
+        
+        height: .05em;
+        width: 10em;
+        justify-content:center;
+        background-color: cornflowerblue;
+        list-style-type: none;
+      
+        padding-top: .7rem;
+        padding-bottom: 1.7rem;
+      }
+      
+      nav ul li:active {
+        font-family: 'Montserrat', sans-serif;
+        background:  #fbc2eb;
+      }
+      nav ul li a {
+        text-align:center;
+        text-decoration: none;
+        color: white;
+      }
